@@ -3,7 +3,7 @@
 Gem::Specification.new do |gem|
   gem.authors       = ["Tim Pope"]
   gem.email         = ["code@tpope.net"]
-  gem.summary       = %q{Rack middleware to taint headers, parameters, and input}
+  gem.summary       = %q{Rack middleware to taint incoming data}
   gem.homepage      = "https://github.com/tpope/rack-taint"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
